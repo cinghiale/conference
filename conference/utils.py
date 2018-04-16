@@ -713,7 +713,7 @@ def render_event_video_cover(eid, thumb=(256, 256)):
 
     return True
 
-def render_badge(tickets, cmdargs=None, stderr=subprocess.PIPE):
+def render_badge(tickets, cmdargs=None, stderr=None):
     """
     Prepara i badge dei biglietti passati
 
